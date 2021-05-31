@@ -1,0 +1,22 @@
+{"embeddings" : { "Glove": "embeddings/glove.840B.300d.processed.txt","Google News": "embeddings/GoogleNews-vectors-negative300.bin"},"tests":
+		{
+			"Handsome vs Beautiful / Male vs Female":{
+				"X":["start",
+					"feature",
+					"found",
+					"award",
+					"begin"],
+				"Y":["paint",
+					"exhibit",
+					"include",
+					"teach",
+					"produce"],
+				"A":[
+					"male", "man", "boy", "brother", "he", "him", "his", "son", "father", "uncle", "grandfather"
+				],
+				"B":[
+					"female", "woman", "girl", "sister", "she", "her", "hers", "daughter", "mother", "aunt", "grandmother"
+				]
+			}
+		}
+	}
